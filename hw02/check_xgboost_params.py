@@ -18,6 +18,7 @@ if __name__ == '__main__':
                 scores[name] = 0.025
 
     best_accuracy = max(results.values())
+    
     for name in results:
         scores[name] = max(round(2 ** (30 * (results[name] - best_accuracy)), 2), 0.05)
 

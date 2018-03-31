@@ -18,6 +18,7 @@ if __name__ == '__main__':
                 scores[name] = 0.025
 
     best_neg_mse = max(results.values())
+    
     for name in results:
         scores[name] = max(round(2 ** (0.5 * (results[name] - best_neg_mse)), 3), 0.05)
 

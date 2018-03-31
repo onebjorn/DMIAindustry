@@ -6,9 +6,9 @@ import numpy as np
 
 
 # Параметрами с которыми вы хотите обучать деревья
-TREE_PARAMS_DICT = {'max_depth': 2}
+TREE_PARAMS_DICT = {'max_depth': 7}
 # Параметр tau (learning_rate) для вашего GB
-TAU = 0.05
+TAU = 0.015
 
 
 class SimpleGB(BaseEstimator):
