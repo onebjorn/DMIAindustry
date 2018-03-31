@@ -1,0 +1,13 @@
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 4,
+        "ngram_range": [1, 2]
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"
+    }, 
+    "logistic_regression_params": {
+        "C": 5.5
+    }
+}
